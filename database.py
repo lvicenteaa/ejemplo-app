@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-MONGO_URI = 'mongodb://192.168.0.14:27017'
+MONGO_URI = 'mongodb://localhost:27017'
 
 def dbConnection():
     try:
