@@ -17,5 +17,5 @@ COPY . .
 EXPOSE 4000
 
 # Comando para iniciar la aplicación
-CMD ["python", "app.py"]
+CMD ["python", "app.py", "0.0.0.0:4000"]
 
